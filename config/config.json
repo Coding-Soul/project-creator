@@ -1,0 +1,10 @@
+{
+    "app": {
+        "version": "0.1.4",
+        "projects-path": "/home/johannes/Coding/Projects",
+        "username": "Johannes"
+    },
+    "python-project": {
+        "modules": ["test", "core", "utils"]
+    }
+}
