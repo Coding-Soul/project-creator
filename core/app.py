@@ -1,5 +1,5 @@
 import typer
-import os   
+import os
 
 from core import config, logic
 from core.logic import ProjectType
@@ -16,7 +16,8 @@ app.add_typer(project, name='project')
 
 @app.command()
 def info():
-    print(f'App version: {config.read("app")["version"]}')
+    print(f'\n{colors.WHITE}</project-creator>{colors.RESET}')
+    print(f'App version: {colors.RED}{config.read("app")["version"]}{colors.RESET}\n')
 
 
 def run():
